@@ -8,3 +8,5 @@ module.exports = {
       expiresIn: process.env.JWT_EXPIRES_IN
     }
   };
+
+  // backend phase 0 just added config folder with index file++++++++++++++++++++++++++++++++++++++++++++ next step sequelize setup
