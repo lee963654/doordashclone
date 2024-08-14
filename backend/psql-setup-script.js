@@ -5,3 +5,5 @@ sequelize.showAllSchemas({ logging: false }).then(async (data) => {
     await sequelize.createSchema(process.env.SCHEMA);
   }
 });
+
+// Just added script file in backend phase 0, should migrate the database next
