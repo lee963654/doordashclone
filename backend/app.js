@@ -8,3 +8,5 @@ const cookieParser = require('cookie-parser');
 
 const { environment } = require('./config');
 const isProduction = environment === 'production';
+
+const app = express();
