@@ -8,3 +8,5 @@ router.get('/hello/world', function(req, res) {
 });
 
 module.exports = router;
+
+//Phase 0 just created routes folder and index file.
