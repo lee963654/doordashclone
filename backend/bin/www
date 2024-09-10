@@ -22,6 +22,3 @@ db.sequelize
     console.log('Database connection failure.');
     console.error(err);
   });
-
-
-// Phase 0 just added bin folder to backend folder with www file
