@@ -21,6 +21,3 @@ db.sequelize
     console.log('Database connection failure.');
     console.error(err);
   });
-
-
-  // phase 0 after www file. something is not working
