@@ -16,5 +16,3 @@ router.get("/api/csrf/restore", (req, res) => {
 });
 
 module.exports = router;
-
-// In backend phase 1, just added code in the routes folder index file. will now be at the TEST THE API ROUTER step
