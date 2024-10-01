@@ -68,7 +68,7 @@ app.use((err, _req, _res, next) => {
   next(err);
 });
 
-
+// Error Formatter
 app.use((err, _req, res, _next) => {
   res.status(err.status || 500);
   console.error(err);
@@ -80,6 +80,6 @@ app.use((err, _req, res, _next) => {
   });
 });
 
-
+// Starting phase 3
 
 module.exports = app;
