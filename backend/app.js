@@ -69,6 +69,3 @@ app.use((err, _req, _res, next) => {
 });
 
 module.exports = app;
-
-
-// IN backend phase 2, Sequelize Error-Handler. Just added const {Validation Error} = require("sequelize"). Add the next part below
