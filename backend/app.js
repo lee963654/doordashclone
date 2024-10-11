@@ -80,6 +80,5 @@ app.use((err, _req, res, _next) => {
   });
 });
 
-// Starting phase 3
 
 module.exports = app;
