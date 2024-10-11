@@ -44,3 +44,5 @@ module.exports = (sequelize, DataTypes) => {
   );
   return User;
 };
+
+// Phase 3, just updated user model. At User Seeds now and will generate user seeder file
