@@ -42,7 +42,9 @@ module.exports = {
     options.tableName = 'Users';
     const Op = Sequelize.Op;
     return queryInterface.bulkDelete(options, {
-      username: { [Op.in]: ['Demo-lition', 'FakeUser1', 'FakeUser2'] }
+      username: { [Op.in]: ['Demo-lition', 'FakeUser1', 'FakeUser2', 'demouser3', 'demouser4'] }
     }, {});
   }
 };
+
+// just added seeder file, added two more demo users. will not seed all next.
