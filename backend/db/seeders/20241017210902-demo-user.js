@@ -46,5 +46,3 @@ module.exports = {
     }, {});
   }
 };
-
-// just added seeder file, added two more demo users. will not seed all next.
