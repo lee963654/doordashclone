@@ -31,4 +31,4 @@ const setTokenCookie = (res, user) => {
 
     return token;
   };
-//
+// Phase 3, just added jwt cookie. will now be at the restoreUser section.
