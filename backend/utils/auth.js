@@ -31,4 +31,4 @@ const setTokenCookie = (res, user) => {
 
     return token;
   };
-// Phase 3, User Auth Middlewares, just created auth file in the utils folder. Will now add const {user} above.
+//
