@@ -54,7 +54,7 @@ const setTokenCookie = (res, user) => {
         return next();
       }
 
-      if (!req.user) res.clearCookie('token');
+
 
       return next();
     });
