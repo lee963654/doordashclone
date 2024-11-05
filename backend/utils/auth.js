@@ -59,3 +59,5 @@ const setTokenCookie = (res, user) => {
       return next();
     });
   };
+
+  // Phase 3, starting require Auth
