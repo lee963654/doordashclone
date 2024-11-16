@@ -59,3 +59,7 @@ const setTokenCookie = (res, user) => {
       return next();
     });
   };
+
+  const requireAuth = function (req, _res, next) {
+
+  }
