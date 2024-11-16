@@ -68,3 +68,4 @@ const requireAuth = function (req, _res, next) {
   err.status = 401;
   return next(err);
 }
+// finished requireAuth. Phase 3 right after require auth function
