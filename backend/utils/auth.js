@@ -61,5 +61,5 @@ const setTokenCookie = (res, user) => {
   };
 
   const requireAuth = function (req, _res, next) {
-
+    if (req.user) return next();
   }
