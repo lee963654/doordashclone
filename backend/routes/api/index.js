@@ -6,5 +6,10 @@ router.post('/test', function(req, res) {
   });
 
 
+// GET /api/set-token-cookie
 const { setTokenCookie } = require('../../utils/auth.js');
+
+
+
+
 module.exports = router;
