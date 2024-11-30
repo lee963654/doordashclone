@@ -9,7 +9,5 @@ router.post('/test', function(req, res) {
 // GET /api/set-token-cookie
 const { setTokenCookie } = require('../../utils/auth.js');
 
-// Currently on Test User Auth Middlewares, put in the first const. will now put in const {User}...
-
 
 module.exports = router;
