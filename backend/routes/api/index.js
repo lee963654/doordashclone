@@ -22,5 +22,5 @@ router.get('/set-token-cookie', async (_req, res) => {
 
 });
 
-// Just finished setting set token router. Under Test User Auth Middlewares, now in testing the route in localhost
+
 module.exports = router;
