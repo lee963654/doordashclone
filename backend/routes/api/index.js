@@ -22,5 +22,6 @@ router.get('/set-token-cookie', async (_req, res) => {
 
 });
 
+// GET /api/restore-user
 
 module.exports = router;
