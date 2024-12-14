@@ -33,5 +33,7 @@ router.get(
   }
 );
 
+const { requireAuth } = require('../../utils/auth.js');
+
 
 module.exports = router;
