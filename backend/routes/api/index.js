@@ -42,6 +42,6 @@ router.get(
   }
 );
 
-// Finished const requireAuth... router.get(require-auth) Almost done with phase 3
+
 
 module.exports = router;
