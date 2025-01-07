@@ -1,5 +1,6 @@
 // backend/routes/api/index.js
 const router = require('express').Router();
+const sessionRouter = require('./session.js');
 
 router.post('/test', function(req, res) {
     res.json({ requestBody: req.body });
