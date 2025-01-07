@@ -3,6 +3,7 @@ const router = require('express').Router();
 const sessionRouter = require('./session.js');
 const usersRouter = require('./users.js');
 const { restoreUser } = require("../../utils/auth.js");
+// on backend routes api index file, added the top three things, session router, usersrouter,m restore user
 
 router.post('/test', function(req, res) {
     res.json({ requestBody: req.body });
